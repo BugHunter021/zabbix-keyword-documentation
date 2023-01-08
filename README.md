@@ -100,7 +100,7 @@ UserParameter=NewKey,echo 1
 
 
 Get
-تست عملکرد zabbix agent 
+### تست عملکرد zabbix agent 
 برای این کار باید در فایل config zabbix agent در بخش Server, Server Active آی پی Local رو که میخواهیم دستورات Get رو اجرا کنیم اضافه کنیم.
 Zabbix_get –s 127.0.0.1 –p 10050 –k NewKey
 
